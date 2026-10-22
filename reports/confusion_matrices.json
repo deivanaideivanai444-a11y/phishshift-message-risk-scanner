@@ -1,0 +1,38 @@
+{
+  "labels": [
+    "legitimate",
+    "phishing"
+  ],
+  "matrices": {
+    "Rule-based baseline": [
+      [
+        43,
+        17
+      ],
+      [
+        41,
+        19
+      ]
+    ],
+    "TF-IDF + Logistic Regression": [
+      [
+        23,
+        37
+      ],
+      [
+        17,
+        43
+      ]
+    ],
+    "TF-IDF + Linear SVM": [
+      [
+        21,
+        39
+      ],
+      [
+        21,
+        39
+      ]
+    ]
+  }
+}

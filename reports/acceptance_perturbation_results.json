@@ -1,0 +1,64 @@
+{
+  "base_message": "Your weekly schedule is ready; review the note at hxxps://portal[.]example[.]invalid.",
+  "base_category": "Uncertain \u2014 Manual Review Required",
+  "base_confidence": 0.5400255922904772,
+  "variants": [
+    {
+      "index": 0,
+      "message": "YOUR WEEKLY SCHEDULE IS READY; REVIEW THE NOTE AT HXXPS://PORTAL[.]EXAMPLE[.]INVALID.",
+      "category": "Uncertain \u2014 Manual Review Required",
+      "confidence": 0.5400255922904772,
+      "confidence_delta": 0.0
+    },
+    {
+      "index": 1,
+      "message": "Your  weekly schedule is ready; review the note at hxxps://portal[.]example[.]invalid.",
+      "category": "Uncertain \u2014 Manual Review Required",
+      "confidence": 0.5400255922904772,
+      "confidence_delta": 0.0
+    },
+    {
+      "index": 2,
+      "message": "Your weekly schedule is ready ;  review the note at hxxps://portal[.]example[.]invalid.",
+      "category": "Uncertain \u2014 Manual Review Required",
+      "confidence": 0.5400255922904772,
+      "confidence_delta": 0.0
+    },
+    {
+      "index": 3,
+      "message": "Your weekly schedule is ready; review the note at hxxps://portal(dot)example[.]invalid.",
+      "category": "Uncertain \u2014 Manual Review Required",
+      "confidence": 0.5416016972837967,
+      "confidence_delta": 0.0015761049933195048
+    },
+    {
+      "index": 4,
+      "message": "Your weekly schedule is ready; review the note at hxxps : //portal[.]example[.]invalid.",
+      "category": "Uncertain \u2014 Manual Review Required",
+      "confidence": 0.5400255922904772,
+      "confidence_delta": 0.0
+    },
+    {
+      "index": 5,
+      "message": "Your weekly schedule is ready; review the note at hxxps://portal[.]example[.]invalid.!",
+      "category": "Uncertain \u2014 Manual Review Required",
+      "confidence": 0.5400255922904772,
+      "confidence_delta": 0.0
+    },
+    {
+      "index": 6,
+      "message": "Your weekly schedule is ready; review the note at hxxps://portal[.]example[.]invalid. Thank you.",
+      "category": "Uncertain \u2014 Manual Review Required",
+      "confidence": 0.5423246224770545,
+      "confidence_delta": 0.002299030186577289
+    },
+    {
+      "index": 7,
+      "message": "Your weekly schedule is ready; review the note at hxxps://portal[dot]example[.]invalid.",
+      "category": "Uncertain \u2014 Manual Review Required",
+      "confidence": 0.5416016972837967,
+      "confidence_delta": 0.0015761049933195048
+    }
+  ],
+  "score_changed_for_at_least_one_variant": true
+}

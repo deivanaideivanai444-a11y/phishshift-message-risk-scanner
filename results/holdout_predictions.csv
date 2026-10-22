@@ -1,0 +1,361 @@
+model,message_id,campaign_group,true_label,prediction
+Rule-based baseline,MSG-0025,synthetic-campaign-02,phishing,phishing
+Rule-based baseline,MSG-0026,synthetic-campaign-02,legitimate,phishing
+Rule-based baseline,MSG-0027,synthetic-campaign-02,phishing,phishing
+Rule-based baseline,MSG-0028,synthetic-campaign-02,legitimate,phishing
+Rule-based baseline,MSG-0029,synthetic-campaign-02,phishing,legitimate
+Rule-based baseline,MSG-0030,synthetic-campaign-02,legitimate,legitimate
+Rule-based baseline,MSG-0031,synthetic-campaign-02,phishing,legitimate
+Rule-based baseline,MSG-0032,synthetic-campaign-02,legitimate,legitimate
+Rule-based baseline,MSG-0033,synthetic-campaign-02,phishing,legitimate
+Rule-based baseline,MSG-0034,synthetic-campaign-02,legitimate,phishing
+Rule-based baseline,MSG-0035,synthetic-campaign-02,phishing,legitimate
+Rule-based baseline,MSG-0036,synthetic-campaign-02,legitimate,legitimate
+Rule-based baseline,MSG-0037,synthetic-campaign-02,phishing,legitimate
+Rule-based baseline,MSG-0038,synthetic-campaign-02,legitimate,legitimate
+Rule-based baseline,MSG-0039,synthetic-campaign-02,phishing,legitimate
+Rule-based baseline,MSG-0040,synthetic-campaign-02,legitimate,legitimate
+Rule-based baseline,MSG-0041,synthetic-campaign-02,phishing,legitimate
+Rule-based baseline,MSG-0042,synthetic-campaign-02,legitimate,legitimate
+Rule-based baseline,MSG-0043,synthetic-campaign-02,phishing,legitimate
+Rule-based baseline,MSG-0044,synthetic-campaign-02,legitimate,phishing
+Rule-based baseline,MSG-0045,synthetic-campaign-02,phishing,legitimate
+Rule-based baseline,MSG-0046,synthetic-campaign-02,legitimate,legitimate
+Rule-based baseline,MSG-0047,synthetic-campaign-02,phishing,legitimate
+Rule-based baseline,MSG-0048,synthetic-campaign-02,legitimate,legitimate
+Rule-based baseline,MSG-0073,synthetic-campaign-04,phishing,phishing
+Rule-based baseline,MSG-0074,synthetic-campaign-04,legitimate,phishing
+Rule-based baseline,MSG-0075,synthetic-campaign-04,phishing,phishing
+Rule-based baseline,MSG-0076,synthetic-campaign-04,legitimate,phishing
+Rule-based baseline,MSG-0077,synthetic-campaign-04,phishing,legitimate
+Rule-based baseline,MSG-0078,synthetic-campaign-04,legitimate,legitimate
+Rule-based baseline,MSG-0079,synthetic-campaign-04,phishing,legitimate
+Rule-based baseline,MSG-0080,synthetic-campaign-04,legitimate,legitimate
+Rule-based baseline,MSG-0081,synthetic-campaign-04,phishing,legitimate
+Rule-based baseline,MSG-0082,synthetic-campaign-04,legitimate,phishing
+Rule-based baseline,MSG-0083,synthetic-campaign-04,phishing,phishing
+Rule-based baseline,MSG-0084,synthetic-campaign-04,legitimate,legitimate
+Rule-based baseline,MSG-0085,synthetic-campaign-04,phishing,legitimate
+Rule-based baseline,MSG-0086,synthetic-campaign-04,legitimate,legitimate
+Rule-based baseline,MSG-0087,synthetic-campaign-04,phishing,legitimate
+Rule-based baseline,MSG-0088,synthetic-campaign-04,legitimate,legitimate
+Rule-based baseline,MSG-0089,synthetic-campaign-04,phishing,legitimate
+Rule-based baseline,MSG-0090,synthetic-campaign-04,legitimate,legitimate
+Rule-based baseline,MSG-0091,synthetic-campaign-04,phishing,phishing
+Rule-based baseline,MSG-0092,synthetic-campaign-04,legitimate,legitimate
+Rule-based baseline,MSG-0093,synthetic-campaign-04,phishing,legitimate
+Rule-based baseline,MSG-0094,synthetic-campaign-04,legitimate,legitimate
+Rule-based baseline,MSG-0095,synthetic-campaign-04,phishing,legitimate
+Rule-based baseline,MSG-0096,synthetic-campaign-04,legitimate,legitimate
+Rule-based baseline,MSG-0169,synthetic-campaign-08,phishing,phishing
+Rule-based baseline,MSG-0170,synthetic-campaign-08,legitimate,phishing
+Rule-based baseline,MSG-0171,synthetic-campaign-08,phishing,phishing
+Rule-based baseline,MSG-0172,synthetic-campaign-08,legitimate,phishing
+Rule-based baseline,MSG-0173,synthetic-campaign-08,phishing,legitimate
+Rule-based baseline,MSG-0174,synthetic-campaign-08,legitimate,legitimate
+Rule-based baseline,MSG-0175,synthetic-campaign-08,phishing,legitimate
+Rule-based baseline,MSG-0176,synthetic-campaign-08,legitimate,legitimate
+Rule-based baseline,MSG-0177,synthetic-campaign-08,phishing,legitimate
+Rule-based baseline,MSG-0178,synthetic-campaign-08,legitimate,phishing
+Rule-based baseline,MSG-0179,synthetic-campaign-08,phishing,legitimate
+Rule-based baseline,MSG-0180,synthetic-campaign-08,legitimate,legitimate
+Rule-based baseline,MSG-0181,synthetic-campaign-08,phishing,legitimate
+Rule-based baseline,MSG-0182,synthetic-campaign-08,legitimate,legitimate
+Rule-based baseline,MSG-0183,synthetic-campaign-08,phishing,legitimate
+Rule-based baseline,MSG-0184,synthetic-campaign-08,legitimate,legitimate
+Rule-based baseline,MSG-0185,synthetic-campaign-08,phishing,phishing
+Rule-based baseline,MSG-0186,synthetic-campaign-08,legitimate,legitimate
+Rule-based baseline,MSG-0187,synthetic-campaign-08,phishing,phishing
+Rule-based baseline,MSG-0188,synthetic-campaign-08,legitimate,phishing
+Rule-based baseline,MSG-0189,synthetic-campaign-08,phishing,legitimate
+Rule-based baseline,MSG-0190,synthetic-campaign-08,legitimate,legitimate
+Rule-based baseline,MSG-0191,synthetic-campaign-08,phishing,legitimate
+Rule-based baseline,MSG-0192,synthetic-campaign-08,legitimate,legitimate
+Rule-based baseline,MSG-0385,synthetic-campaign-17,phishing,phishing
+Rule-based baseline,MSG-0386,synthetic-campaign-17,legitimate,phishing
+Rule-based baseline,MSG-0387,synthetic-campaign-17,phishing,phishing
+Rule-based baseline,MSG-0388,synthetic-campaign-17,legitimate,phishing
+Rule-based baseline,MSG-0389,synthetic-campaign-17,phishing,legitimate
+Rule-based baseline,MSG-0390,synthetic-campaign-17,legitimate,legitimate
+Rule-based baseline,MSG-0391,synthetic-campaign-17,phishing,legitimate
+Rule-based baseline,MSG-0392,synthetic-campaign-17,legitimate,legitimate
+Rule-based baseline,MSG-0393,synthetic-campaign-17,phishing,legitimate
+Rule-based baseline,MSG-0394,synthetic-campaign-17,legitimate,legitimate
+Rule-based baseline,MSG-0395,synthetic-campaign-17,phishing,phishing
+Rule-based baseline,MSG-0396,synthetic-campaign-17,legitimate,legitimate
+Rule-based baseline,MSG-0397,synthetic-campaign-17,phishing,legitimate
+Rule-based baseline,MSG-0398,synthetic-campaign-17,legitimate,legitimate
+Rule-based baseline,MSG-0399,synthetic-campaign-17,phishing,legitimate
+Rule-based baseline,MSG-0400,synthetic-campaign-17,legitimate,legitimate
+Rule-based baseline,MSG-0401,synthetic-campaign-17,phishing,legitimate
+Rule-based baseline,MSG-0402,synthetic-campaign-17,legitimate,legitimate
+Rule-based baseline,MSG-0403,synthetic-campaign-17,phishing,phishing
+Rule-based baseline,MSG-0404,synthetic-campaign-17,legitimate,phishing
+Rule-based baseline,MSG-0405,synthetic-campaign-17,phishing,legitimate
+Rule-based baseline,MSG-0406,synthetic-campaign-17,legitimate,legitimate
+Rule-based baseline,MSG-0407,synthetic-campaign-17,phishing,legitimate
+Rule-based baseline,MSG-0408,synthetic-campaign-17,legitimate,legitimate
+Rule-based baseline,MSG-0433,synthetic-campaign-19,phishing,phishing
+Rule-based baseline,MSG-0434,synthetic-campaign-19,legitimate,phishing
+Rule-based baseline,MSG-0435,synthetic-campaign-19,phishing,phishing
+Rule-based baseline,MSG-0436,synthetic-campaign-19,legitimate,phishing
+Rule-based baseline,MSG-0437,synthetic-campaign-19,phishing,legitimate
+Rule-based baseline,MSG-0438,synthetic-campaign-19,legitimate,legitimate
+Rule-based baseline,MSG-0439,synthetic-campaign-19,phishing,legitimate
+Rule-based baseline,MSG-0440,synthetic-campaign-19,legitimate,legitimate
+Rule-based baseline,MSG-0441,synthetic-campaign-19,phishing,phishing
+Rule-based baseline,MSG-0442,synthetic-campaign-19,legitimate,phishing
+Rule-based baseline,MSG-0443,synthetic-campaign-19,phishing,legitimate
+Rule-based baseline,MSG-0444,synthetic-campaign-19,legitimate,legitimate
+Rule-based baseline,MSG-0445,synthetic-campaign-19,phishing,legitimate
+Rule-based baseline,MSG-0446,synthetic-campaign-19,legitimate,legitimate
+Rule-based baseline,MSG-0447,synthetic-campaign-19,phishing,legitimate
+Rule-based baseline,MSG-0448,synthetic-campaign-19,legitimate,legitimate
+Rule-based baseline,MSG-0449,synthetic-campaign-19,phishing,phishing
+Rule-based baseline,MSG-0450,synthetic-campaign-19,legitimate,legitimate
+Rule-based baseline,MSG-0451,synthetic-campaign-19,phishing,phishing
+Rule-based baseline,MSG-0452,synthetic-campaign-19,legitimate,legitimate
+Rule-based baseline,MSG-0453,synthetic-campaign-19,phishing,legitimate
+Rule-based baseline,MSG-0454,synthetic-campaign-19,legitimate,legitimate
+Rule-based baseline,MSG-0455,synthetic-campaign-19,phishing,legitimate
+Rule-based baseline,MSG-0456,synthetic-campaign-19,legitimate,legitimate
+TF-IDF + Logistic Regression,MSG-0025,synthetic-campaign-02,phishing,legitimate
+TF-IDF + Logistic Regression,MSG-0026,synthetic-campaign-02,legitimate,legitimate
+TF-IDF + Logistic Regression,MSG-0027,synthetic-campaign-02,phishing,legitimate
+TF-IDF + Logistic Regression,MSG-0028,synthetic-campaign-02,legitimate,legitimate
+TF-IDF + Logistic Regression,MSG-0029,synthetic-campaign-02,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0030,synthetic-campaign-02,legitimate,phishing
+TF-IDF + Logistic Regression,MSG-0031,synthetic-campaign-02,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0032,synthetic-campaign-02,legitimate,phishing
+TF-IDF + Logistic Regression,MSG-0033,synthetic-campaign-02,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0034,synthetic-campaign-02,legitimate,phishing
+TF-IDF + Logistic Regression,MSG-0035,synthetic-campaign-02,phishing,legitimate
+TF-IDF + Logistic Regression,MSG-0036,synthetic-campaign-02,legitimate,phishing
+TF-IDF + Logistic Regression,MSG-0037,synthetic-campaign-02,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0038,synthetic-campaign-02,legitimate,legitimate
+TF-IDF + Logistic Regression,MSG-0039,synthetic-campaign-02,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0040,synthetic-campaign-02,legitimate,phishing
+TF-IDF + Logistic Regression,MSG-0041,synthetic-campaign-02,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0042,synthetic-campaign-02,legitimate,phishing
+TF-IDF + Logistic Regression,MSG-0043,synthetic-campaign-02,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0044,synthetic-campaign-02,legitimate,phishing
+TF-IDF + Logistic Regression,MSG-0045,synthetic-campaign-02,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0046,synthetic-campaign-02,legitimate,phishing
+TF-IDF + Logistic Regression,MSG-0047,synthetic-campaign-02,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0048,synthetic-campaign-02,legitimate,phishing
+TF-IDF + Logistic Regression,MSG-0073,synthetic-campaign-04,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0074,synthetic-campaign-04,legitimate,phishing
+TF-IDF + Logistic Regression,MSG-0075,synthetic-campaign-04,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0076,synthetic-campaign-04,legitimate,phishing
+TF-IDF + Logistic Regression,MSG-0077,synthetic-campaign-04,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0078,synthetic-campaign-04,legitimate,phishing
+TF-IDF + Logistic Regression,MSG-0079,synthetic-campaign-04,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0080,synthetic-campaign-04,legitimate,phishing
+TF-IDF + Logistic Regression,MSG-0081,synthetic-campaign-04,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0082,synthetic-campaign-04,legitimate,phishing
+TF-IDF + Logistic Regression,MSG-0083,synthetic-campaign-04,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0084,synthetic-campaign-04,legitimate,legitimate
+TF-IDF + Logistic Regression,MSG-0085,synthetic-campaign-04,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0086,synthetic-campaign-04,legitimate,legitimate
+TF-IDF + Logistic Regression,MSG-0087,synthetic-campaign-04,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0088,synthetic-campaign-04,legitimate,legitimate
+TF-IDF + Logistic Regression,MSG-0089,synthetic-campaign-04,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0090,synthetic-campaign-04,legitimate,legitimate
+TF-IDF + Logistic Regression,MSG-0091,synthetic-campaign-04,phishing,legitimate
+TF-IDF + Logistic Regression,MSG-0092,synthetic-campaign-04,legitimate,phishing
+TF-IDF + Logistic Regression,MSG-0093,synthetic-campaign-04,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0094,synthetic-campaign-04,legitimate,legitimate
+TF-IDF + Logistic Regression,MSG-0095,synthetic-campaign-04,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0096,synthetic-campaign-04,legitimate,phishing
+TF-IDF + Logistic Regression,MSG-0169,synthetic-campaign-08,phishing,legitimate
+TF-IDF + Logistic Regression,MSG-0170,synthetic-campaign-08,legitimate,legitimate
+TF-IDF + Logistic Regression,MSG-0171,synthetic-campaign-08,phishing,legitimate
+TF-IDF + Logistic Regression,MSG-0172,synthetic-campaign-08,legitimate,legitimate
+TF-IDF + Logistic Regression,MSG-0173,synthetic-campaign-08,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0174,synthetic-campaign-08,legitimate,phishing
+TF-IDF + Logistic Regression,MSG-0175,synthetic-campaign-08,phishing,legitimate
+TF-IDF + Logistic Regression,MSG-0176,synthetic-campaign-08,legitimate,legitimate
+TF-IDF + Logistic Regression,MSG-0177,synthetic-campaign-08,phishing,legitimate
+TF-IDF + Logistic Regression,MSG-0178,synthetic-campaign-08,legitimate,legitimate
+TF-IDF + Logistic Regression,MSG-0179,synthetic-campaign-08,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0180,synthetic-campaign-08,legitimate,phishing
+TF-IDF + Logistic Regression,MSG-0181,synthetic-campaign-08,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0182,synthetic-campaign-08,legitimate,phishing
+TF-IDF + Logistic Regression,MSG-0183,synthetic-campaign-08,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0184,synthetic-campaign-08,legitimate,phishing
+TF-IDF + Logistic Regression,MSG-0185,synthetic-campaign-08,phishing,legitimate
+TF-IDF + Logistic Regression,MSG-0186,synthetic-campaign-08,legitimate,phishing
+TF-IDF + Logistic Regression,MSG-0187,synthetic-campaign-08,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0188,synthetic-campaign-08,legitimate,legitimate
+TF-IDF + Logistic Regression,MSG-0189,synthetic-campaign-08,phishing,legitimate
+TF-IDF + Logistic Regression,MSG-0190,synthetic-campaign-08,legitimate,legitimate
+TF-IDF + Logistic Regression,MSG-0191,synthetic-campaign-08,phishing,legitimate
+TF-IDF + Logistic Regression,MSG-0192,synthetic-campaign-08,legitimate,phishing
+TF-IDF + Logistic Regression,MSG-0385,synthetic-campaign-17,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0386,synthetic-campaign-17,legitimate,phishing
+TF-IDF + Logistic Regression,MSG-0387,synthetic-campaign-17,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0388,synthetic-campaign-17,legitimate,phishing
+TF-IDF + Logistic Regression,MSG-0389,synthetic-campaign-17,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0390,synthetic-campaign-17,legitimate,phishing
+TF-IDF + Logistic Regression,MSG-0391,synthetic-campaign-17,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0392,synthetic-campaign-17,legitimate,phishing
+TF-IDF + Logistic Regression,MSG-0393,synthetic-campaign-17,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0394,synthetic-campaign-17,legitimate,phishing
+TF-IDF + Logistic Regression,MSG-0395,synthetic-campaign-17,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0396,synthetic-campaign-17,legitimate,legitimate
+TF-IDF + Logistic Regression,MSG-0397,synthetic-campaign-17,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0398,synthetic-campaign-17,legitimate,legitimate
+TF-IDF + Logistic Regression,MSG-0399,synthetic-campaign-17,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0400,synthetic-campaign-17,legitimate,legitimate
+TF-IDF + Logistic Regression,MSG-0401,synthetic-campaign-17,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0402,synthetic-campaign-17,legitimate,phishing
+TF-IDF + Logistic Regression,MSG-0403,synthetic-campaign-17,phishing,legitimate
+TF-IDF + Logistic Regression,MSG-0404,synthetic-campaign-17,legitimate,phishing
+TF-IDF + Logistic Regression,MSG-0405,synthetic-campaign-17,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0406,synthetic-campaign-17,legitimate,phishing
+TF-IDF + Logistic Regression,MSG-0407,synthetic-campaign-17,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0408,synthetic-campaign-17,legitimate,legitimate
+TF-IDF + Logistic Regression,MSG-0433,synthetic-campaign-19,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0434,synthetic-campaign-19,legitimate,phishing
+TF-IDF + Logistic Regression,MSG-0435,synthetic-campaign-19,phishing,legitimate
+TF-IDF + Logistic Regression,MSG-0436,synthetic-campaign-19,legitimate,legitimate
+TF-IDF + Logistic Regression,MSG-0437,synthetic-campaign-19,phishing,legitimate
+TF-IDF + Logistic Regression,MSG-0438,synthetic-campaign-19,legitimate,legitimate
+TF-IDF + Logistic Regression,MSG-0439,synthetic-campaign-19,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0440,synthetic-campaign-19,legitimate,phishing
+TF-IDF + Logistic Regression,MSG-0441,synthetic-campaign-19,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0442,synthetic-campaign-19,legitimate,phishing
+TF-IDF + Logistic Regression,MSG-0443,synthetic-campaign-19,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0444,synthetic-campaign-19,legitimate,legitimate
+TF-IDF + Logistic Regression,MSG-0445,synthetic-campaign-19,phishing,legitimate
+TF-IDF + Logistic Regression,MSG-0446,synthetic-campaign-19,legitimate,legitimate
+TF-IDF + Logistic Regression,MSG-0447,synthetic-campaign-19,phishing,legitimate
+TF-IDF + Logistic Regression,MSG-0448,synthetic-campaign-19,legitimate,phishing
+TF-IDF + Logistic Regression,MSG-0449,synthetic-campaign-19,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0450,synthetic-campaign-19,legitimate,legitimate
+TF-IDF + Logistic Regression,MSG-0451,synthetic-campaign-19,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0452,synthetic-campaign-19,legitimate,phishing
+TF-IDF + Logistic Regression,MSG-0453,synthetic-campaign-19,phishing,phishing
+TF-IDF + Logistic Regression,MSG-0454,synthetic-campaign-19,legitimate,phishing
+TF-IDF + Logistic Regression,MSG-0455,synthetic-campaign-19,phishing,legitimate
+TF-IDF + Logistic Regression,MSG-0456,synthetic-campaign-19,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0025,synthetic-campaign-02,phishing,legitimate
+TF-IDF + Linear SVM,MSG-0026,synthetic-campaign-02,legitimate,legitimate
+TF-IDF + Linear SVM,MSG-0027,synthetic-campaign-02,phishing,legitimate
+TF-IDF + Linear SVM,MSG-0028,synthetic-campaign-02,legitimate,legitimate
+TF-IDF + Linear SVM,MSG-0029,synthetic-campaign-02,phishing,legitimate
+TF-IDF + Linear SVM,MSG-0030,synthetic-campaign-02,legitimate,legitimate
+TF-IDF + Linear SVM,MSG-0031,synthetic-campaign-02,phishing,phishing
+TF-IDF + Linear SVM,MSG-0032,synthetic-campaign-02,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0033,synthetic-campaign-02,phishing,phishing
+TF-IDF + Linear SVM,MSG-0034,synthetic-campaign-02,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0035,synthetic-campaign-02,phishing,legitimate
+TF-IDF + Linear SVM,MSG-0036,synthetic-campaign-02,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0037,synthetic-campaign-02,phishing,phishing
+TF-IDF + Linear SVM,MSG-0038,synthetic-campaign-02,legitimate,legitimate
+TF-IDF + Linear SVM,MSG-0039,synthetic-campaign-02,phishing,legitimate
+TF-IDF + Linear SVM,MSG-0040,synthetic-campaign-02,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0041,synthetic-campaign-02,phishing,phishing
+TF-IDF + Linear SVM,MSG-0042,synthetic-campaign-02,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0043,synthetic-campaign-02,phishing,phishing
+TF-IDF + Linear SVM,MSG-0044,synthetic-campaign-02,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0045,synthetic-campaign-02,phishing,phishing
+TF-IDF + Linear SVM,MSG-0046,synthetic-campaign-02,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0047,synthetic-campaign-02,phishing,phishing
+TF-IDF + Linear SVM,MSG-0048,synthetic-campaign-02,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0073,synthetic-campaign-04,phishing,phishing
+TF-IDF + Linear SVM,MSG-0074,synthetic-campaign-04,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0075,synthetic-campaign-04,phishing,phishing
+TF-IDF + Linear SVM,MSG-0076,synthetic-campaign-04,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0077,synthetic-campaign-04,phishing,phishing
+TF-IDF + Linear SVM,MSG-0078,synthetic-campaign-04,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0079,synthetic-campaign-04,phishing,phishing
+TF-IDF + Linear SVM,MSG-0080,synthetic-campaign-04,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0081,synthetic-campaign-04,phishing,phishing
+TF-IDF + Linear SVM,MSG-0082,synthetic-campaign-04,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0083,synthetic-campaign-04,phishing,phishing
+TF-IDF + Linear SVM,MSG-0084,synthetic-campaign-04,legitimate,legitimate
+TF-IDF + Linear SVM,MSG-0085,synthetic-campaign-04,phishing,phishing
+TF-IDF + Linear SVM,MSG-0086,synthetic-campaign-04,legitimate,legitimate
+TF-IDF + Linear SVM,MSG-0087,synthetic-campaign-04,phishing,phishing
+TF-IDF + Linear SVM,MSG-0088,synthetic-campaign-04,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0089,synthetic-campaign-04,phishing,phishing
+TF-IDF + Linear SVM,MSG-0090,synthetic-campaign-04,legitimate,legitimate
+TF-IDF + Linear SVM,MSG-0091,synthetic-campaign-04,phishing,legitimate
+TF-IDF + Linear SVM,MSG-0092,synthetic-campaign-04,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0093,synthetic-campaign-04,phishing,legitimate
+TF-IDF + Linear SVM,MSG-0094,synthetic-campaign-04,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0095,synthetic-campaign-04,phishing,phishing
+TF-IDF + Linear SVM,MSG-0096,synthetic-campaign-04,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0169,synthetic-campaign-08,phishing,legitimate
+TF-IDF + Linear SVM,MSG-0170,synthetic-campaign-08,legitimate,legitimate
+TF-IDF + Linear SVM,MSG-0171,synthetic-campaign-08,phishing,legitimate
+TF-IDF + Linear SVM,MSG-0172,synthetic-campaign-08,legitimate,legitimate
+TF-IDF + Linear SVM,MSG-0173,synthetic-campaign-08,phishing,phishing
+TF-IDF + Linear SVM,MSG-0174,synthetic-campaign-08,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0175,synthetic-campaign-08,phishing,legitimate
+TF-IDF + Linear SVM,MSG-0176,synthetic-campaign-08,legitimate,legitimate
+TF-IDF + Linear SVM,MSG-0177,synthetic-campaign-08,phishing,legitimate
+TF-IDF + Linear SVM,MSG-0178,synthetic-campaign-08,legitimate,legitimate
+TF-IDF + Linear SVM,MSG-0179,synthetic-campaign-08,phishing,phishing
+TF-IDF + Linear SVM,MSG-0180,synthetic-campaign-08,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0181,synthetic-campaign-08,phishing,phishing
+TF-IDF + Linear SVM,MSG-0182,synthetic-campaign-08,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0183,synthetic-campaign-08,phishing,phishing
+TF-IDF + Linear SVM,MSG-0184,synthetic-campaign-08,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0185,synthetic-campaign-08,phishing,legitimate
+TF-IDF + Linear SVM,MSG-0186,synthetic-campaign-08,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0187,synthetic-campaign-08,phishing,phishing
+TF-IDF + Linear SVM,MSG-0188,synthetic-campaign-08,legitimate,legitimate
+TF-IDF + Linear SVM,MSG-0189,synthetic-campaign-08,phishing,legitimate
+TF-IDF + Linear SVM,MSG-0190,synthetic-campaign-08,legitimate,legitimate
+TF-IDF + Linear SVM,MSG-0191,synthetic-campaign-08,phishing,legitimate
+TF-IDF + Linear SVM,MSG-0192,synthetic-campaign-08,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0385,synthetic-campaign-17,phishing,phishing
+TF-IDF + Linear SVM,MSG-0386,synthetic-campaign-17,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0387,synthetic-campaign-17,phishing,phishing
+TF-IDF + Linear SVM,MSG-0388,synthetic-campaign-17,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0389,synthetic-campaign-17,phishing,phishing
+TF-IDF + Linear SVM,MSG-0390,synthetic-campaign-17,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0391,synthetic-campaign-17,phishing,phishing
+TF-IDF + Linear SVM,MSG-0392,synthetic-campaign-17,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0393,synthetic-campaign-17,phishing,phishing
+TF-IDF + Linear SVM,MSG-0394,synthetic-campaign-17,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0395,synthetic-campaign-17,phishing,phishing
+TF-IDF + Linear SVM,MSG-0396,synthetic-campaign-17,legitimate,legitimate
+TF-IDF + Linear SVM,MSG-0397,synthetic-campaign-17,phishing,phishing
+TF-IDF + Linear SVM,MSG-0398,synthetic-campaign-17,legitimate,legitimate
+TF-IDF + Linear SVM,MSG-0399,synthetic-campaign-17,phishing,phishing
+TF-IDF + Linear SVM,MSG-0400,synthetic-campaign-17,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0401,synthetic-campaign-17,phishing,phishing
+TF-IDF + Linear SVM,MSG-0402,synthetic-campaign-17,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0403,synthetic-campaign-17,phishing,legitimate
+TF-IDF + Linear SVM,MSG-0404,synthetic-campaign-17,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0405,synthetic-campaign-17,phishing,phishing
+TF-IDF + Linear SVM,MSG-0406,synthetic-campaign-17,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0407,synthetic-campaign-17,phishing,phishing
+TF-IDF + Linear SVM,MSG-0408,synthetic-campaign-17,legitimate,legitimate
+TF-IDF + Linear SVM,MSG-0433,synthetic-campaign-19,phishing,phishing
+TF-IDF + Linear SVM,MSG-0434,synthetic-campaign-19,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0435,synthetic-campaign-19,phishing,legitimate
+TF-IDF + Linear SVM,MSG-0436,synthetic-campaign-19,legitimate,legitimate
+TF-IDF + Linear SVM,MSG-0437,synthetic-campaign-19,phishing,legitimate
+TF-IDF + Linear SVM,MSG-0438,synthetic-campaign-19,legitimate,legitimate
+TF-IDF + Linear SVM,MSG-0439,synthetic-campaign-19,phishing,phishing
+TF-IDF + Linear SVM,MSG-0440,synthetic-campaign-19,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0441,synthetic-campaign-19,phishing,phishing
+TF-IDF + Linear SVM,MSG-0442,synthetic-campaign-19,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0443,synthetic-campaign-19,phishing,phishing
+TF-IDF + Linear SVM,MSG-0444,synthetic-campaign-19,legitimate,legitimate
+TF-IDF + Linear SVM,MSG-0445,synthetic-campaign-19,phishing,legitimate
+TF-IDF + Linear SVM,MSG-0446,synthetic-campaign-19,legitimate,legitimate
+TF-IDF + Linear SVM,MSG-0447,synthetic-campaign-19,phishing,legitimate
+TF-IDF + Linear SVM,MSG-0448,synthetic-campaign-19,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0449,synthetic-campaign-19,phishing,phishing
+TF-IDF + Linear SVM,MSG-0450,synthetic-campaign-19,legitimate,legitimate
+TF-IDF + Linear SVM,MSG-0451,synthetic-campaign-19,phishing,legitimate
+TF-IDF + Linear SVM,MSG-0452,synthetic-campaign-19,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0453,synthetic-campaign-19,phishing,phishing
+TF-IDF + Linear SVM,MSG-0454,synthetic-campaign-19,legitimate,phishing
+TF-IDF + Linear SVM,MSG-0455,synthetic-campaign-19,phishing,legitimate
+TF-IDF + Linear SVM,MSG-0456,synthetic-campaign-19,legitimate,phishing

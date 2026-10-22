@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Local educational message-risk decision support">
+  <title>PhishShift | Message Risk Scanner</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="PhishShift home"><span class="brand-mark">P</span>
+      <span>PHISHSHIFT <small>MESSAGE RISK SCANNER</small></span></a>
+    <span class="local-pill"><span></span> LOCAL ANALYSIS</span>
+  </header>
+  <main class="layout">
+    <section class="hero">
+      <p class="eyebrow">EDUCATIONAL CYBERSECURITY TOOL</p>
+      <h1>Pause. Check.<br><span>Then decide.</span></h1>
+      <p class="intro">Review simulated SMS and email messages for patterns that may deserve a closer look. Your message is analysed locally and is not saved permanently.</p>
+      <div class="notice"><span aria-hidden="true">ⓘ</span><strong>Educational decision-support tool. Results are not a guarantee of safety.</strong></div>
+      <div class="trust-row"><span>● No URL fetching</span><span>● No external API</span><span>● Temporary history only</span></div>
+    </section>
+    <section class="scanner panel" aria-labelledby="scan-title">
+      <div class="panel-heading"><div><p class="eyebrow">MESSAGE CHECK</p><h2 id="scan-title">Analyse a message</h2></div><span class="step">01 / 01</span></div>
+      {% if error %}<div class="alert" role="alert">{{ error }}</div>{% endif %}
+      <form id="scan-form" method="post" action="{{ url_for('analyse') }}">
+        <fieldset class="channel-picker"><legend>Message channel</legend>
+          <label class="channel-option"><input type="radio" name="channel" value="sms" {% if values.get('channel','sms') == 'sms' %}checked{% endif %}><span>▣ &nbsp; SMS</span></label>
+          <label class="channel-option"><input type="radio" name="channel" value="email" {% if values.get('channel') == 'email' %}checked{% endif %}><span>✉ &nbsp; Email</span></label>
+        </fieldset>
+        <label class="field-label" for="subject">Subject <span>OPTIONAL · EMAIL</span></label>
+        <input id="subject" name="subject" type="text" maxlength="300" placeholder="e.g. Account notice" value="{{ values.get('subject','') }}">
+        <label class="field-label" for="body_text">Message text <span>REQUIRED</span></label>
+        <textarea id="body_text" name="body_text" maxlength="5000" rows="7" placeholder="Paste the message text here. Do not include real passwords or private information." required>{{ values.get('body_text','') }}</textarea>
+        <div class="form-hint"><span>Do not click links. Submitted URLs are treated as plain text.</span><span id="char-count">0 / 5000</span></div>
+        <button id="analyse-button" class="primary-button" type="submit"><span>Analyse message</span><span aria-hidden="true">→</span></button>
+        <p id="loading-note" class="loading-note" hidden><span class="spinner"></span> Analysing locally…</p>
+      </form>
+    </section>
+    {% if result %}
+    <section class="result panel" aria-live="polite">
+      <div class="panel-heading"><div><p class="eyebrow">ANALYSIS RESULT</p><h2>Your review</h2></div>
+        <span class="badge {% if result.manual_review_recommended %}uncertain{% elif result.predicted_label == 'phishing' %}risk{% else %}safe{% endif %}">{{ result.category }}</span>
+      </div>
+      <p class="result-explanation">{{ result.explanation }}</p>
+      <div class="score-grid"><div class="score-box"><span>{{ result.score_type }}</span><strong>{{ "%.1f"|format(result.confidence * 100) }}%</strong><small>Estimated model probability; not a safety guarantee</small></div>
+        <div class="score-box"><span>Manual review</span><strong>{{ "Recommended" if result.manual_review_recommended else "Not triggered" }}</strong><small>Abstention threshold: {{ "%.0f"|format(threshold * 100) }}%</small></div></div>
+      <h3>Text cues to consider</h3>
+      {% if result.risk_cues %}<ul class="cue-list">{% for cue in result.risk_cues %}<li>{{ cue }}</li>{% endfor %}</ul>{% else %}<p class="muted">No configured text cues were found. That does not establish that the message is genuine.</p>{% endif %}
+      <p class="safe-tip">Verify unexpected requests using a contact method you already trust. Never share passwords or one-time codes in response to a message.</p>
+    </section>
+    {% endif %}
+    <section class="metrics panel">
+      <div class="panel-heading"><div><p class="eyebrow">MEASURED ON HELD-OUT CAMPAIGNS</p><h2>Model snapshot</h2></div></div>
+      {% if metrics %}
+      <div class="table-wrap"><table><thead><tr><th>Model</th><th>Accuracy</th><th>Precision</th><th>Recall</th><th>F1</th><th>TN / FP / FN / TP</th><th>Urgent legitimate FP</th></tr></thead><tbody>
+      {% for m in metrics %}<tr><td>{{ m['model'] }}</td><td>{{ "%.2f"|format(m['accuracy']) }}</td><td>{{ "%.2f"|format(m['precision']) }}</td><td>{{ "%.2f"|format(m['recall']) }}</td><td>{{ "%.2f"|format(m['f1']) }}</td><td>{{ m['tn'] }} / {{ m['fp'] }} / {{ m['fn'] }} / {{ m['tp'] }}</td><td>{{ m['urgent_false_positives'] }} / {{ m['legitimate_urgent_messages'] }} ({{ "%.2f"|format(m['urgent_false_positive_rate']) }})</td></tr>{% endfor %}
+      </tbody></table></div>
+      <p class="muted small">Campaign holdout: {{ metrics[0]['holdout_messages'] }} messages across {{ metrics[0]['unseen_campaign_count'] }} unseen campaigns ({{ metrics[0]['legitimate_support'] }} legitimate, {{ metrics[0]['phishing_support'] }} phishing). Scores describe this synthetic test set only.</p>
+      <h3>Holdout error examples</h3>
+      {% if error_examples %}<ul class="recent-list">{% for item in error_examples %}<li><span class="recent-channel">{{ item['error_type']|replace('_',' ')|upper }}</span><span>{{ item['model'] }} · {{ item['campaign_group'] }} · {{ item['message_id'] }}<br>{{ item['body_text'][:150] }}</span><b>Actual: {{ item['true_label'] }} · Predicted: {{ item['predicted_label'] }}</b></li>{% endfor %}</ul>{% else %}<p class="muted">No false-positive or false-negative examples were recorded for this holdout.</p>{% endif %}
+      {% else %}<p class="muted">No experiment results yet. Generate data and run <code>python train_model.py</code> to populate this dashboard.</p>{% endif %}
+    </section>
+    <section class="bottom-grid">
+      <div class="panel"><p class="eyebrow">RECENT IN THIS SESSION</p><h2>Temporary history</h2>
+        {% if recent %}<ul class="recent-list">{% for item in recent %}<li><span class="recent-channel">{{ item.channel }}</span><span>{{ item.preview }}</span><b>{{ item.category }}</b></li>{% endfor %}</ul>{% else %}<p class="muted">Your latest checks will appear here while this server is running. Message text is not persisted.</p>{% endif %}
+      </div>
+      <div class="panel chart-panel"><p class="eyebrow">EXPERIMENT CHART</p><h2>Compare approaches</h2>
+        <img src="{{ url_for('static', filename='images/model_comparison.png') }}" alt="Bar chart comparing measured campaign-holdout model metrics" onerror="this.hidden=true">
+        <p class="muted">Charts are generated from actual local experiment outputs.</p>
+      </div>
+    </section>
+  </main>
+  <footer><span>PHISHSHIFT · ML-07</span><span>Educational use only · Never a guarantee of safety</span></footer>
+  <script src="{{ url_for('static', filename='js/script.js') }}" defer></script>
+</body>
+</html>

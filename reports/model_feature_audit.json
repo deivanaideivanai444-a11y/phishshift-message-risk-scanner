@@ -1,0 +1,338 @@
+{
+  "TF-IDF + Logistic Regression": {
+    "positive_class": "phishing",
+    "positive_terms": [
+      {
+        "term": "message",
+        "weight": 0.3258897262573467
+      },
+      {
+        "term": "was",
+        "weight": 0.3253547553553526
+      },
+      {
+        "term": "sms note",
+        "weight": 0.32223549299965437
+      },
+      {
+        "term": "included this",
+        "weight": 0.31117526149651487
+      },
+      {
+        "term": "account notice",
+        "weight": 0.30882663696689167
+      },
+      {
+        "term": "delivery preference",
+        "weight": 0.3005465286466638
+      },
+      {
+        "term": "preference",
+        "weight": 0.3005465286466638
+      },
+      {
+        "term": "an account",
+        "weight": 0.27788059465799425
+      },
+      {
+        "term": "mentions",
+        "weight": 0.27788059465799425
+      },
+      {
+        "term": "notice mentions",
+        "weight": 0.27788059465799425
+      },
+      {
+        "term": "information please",
+        "weight": 0.24124359031813047
+      },
+      {
+        "term": "check",
+        "weight": 0.23090793779362642
+      },
+      {
+        "term": "review this",
+        "weight": 0.2303651435280146
+      },
+      {
+        "term": "message example",
+        "weight": 0.2303651435280146
+      },
+      {
+        "term": "desk please",
+        "weight": 0.22795199782396075
+      },
+      {
+        "term": "the delivery",
+        "weight": 0.22776213184048916
+      },
+      {
+        "term": "account information",
+        "weight": 0.2268294548529008
+      },
+      {
+        "term": "your library",
+        "weight": 0.2268294548529008
+      },
+      {
+        "term": "concerns shared",
+        "weight": 0.22363184587838236
+      },
+      {
+        "term": "mentions training",
+        "weight": 0.21740835940018693
+      }
+    ],
+    "negative_class": "legitimate",
+    "negative_terms": [
+      {
+        "term": "new entry",
+        "weight": -0.47163757591312294
+      },
+      {
+        "term": "entry for",
+        "weight": -0.47163757591312294
+      },
+      {
+        "term": "entry",
+        "weight": -0.47163757591312294
+      },
+      {
+        "term": "new",
+        "weight": -0.43203968148255584
+      },
+      {
+        "term": "invalid this",
+        "weight": -0.38398468232814964
+      },
+      {
+        "term": "for",
+        "weight": -0.3525299405820463
+      },
+      {
+        "term": "before the",
+        "weight": -0.32750968933345914
+      },
+      {
+        "term": "before",
+        "weight": -0.32750968933345914
+      },
+      {
+        "term": "details please",
+        "weight": -0.31748601611608346
+      },
+      {
+        "term": "available example",
+        "weight": -0.3169746786616576
+      },
+      {
+        "term": "sms new",
+        "weight": -0.2846761637039283
+      },
+      {
+        "term": "sms service",
+        "weight": -0.2659661611046995
+      },
+      {
+        "term": "the payment",
+        "weight": -0.26555143981460455
+      },
+      {
+        "term": "update",
+        "weight": -0.25882674502940667
+      },
+      {
+        "term": "update please",
+        "weight": -0.25333628991708873
+      },
+      {
+        "term": "next account",
+        "weight": -0.2412596365613773
+      },
+      {
+        "term": "status before",
+        "weight": -0.2412596365613773
+      },
+      {
+        "term": "the next",
+        "weight": -0.2412596365613773
+      },
+      {
+        "term": "payment status",
+        "weight": -0.2412596365613773
+      },
+      {
+        "term": "next",
+        "weight": -0.2412596365613773
+      }
+    ]
+  },
+  "TF-IDF + Linear SVM": {
+    "positive_class": "phishing",
+    "positive_terms": [
+      {
+        "term": "sms note",
+        "weight": 1.0088996329791167
+      },
+      {
+        "term": "included this",
+        "weight": 0.9617230556927194
+      },
+      {
+        "term": "the support",
+        "weight": 0.7501695689540482
+      },
+      {
+        "term": "yours there",
+        "weight": 0.7325044975518964
+      },
+      {
+        "term": "details there",
+        "weight": 0.7031330704294535
+      },
+      {
+        "term": "concerns meeting",
+        "weight": 0.6942847017329749
+      },
+      {
+        "term": "concerns shared",
+        "weight": 0.674645851364469
+      },
+      {
+        "term": "concerns digital",
+        "weight": 0.6685318162238668
+      },
+      {
+        "term": "your library",
+        "weight": 0.649448736326326
+      },
+      {
+        "term": "account information",
+        "weight": 0.649448736326326
+      },
+      {
+        "term": "summary new",
+        "weight": 0.6488051856931475
+      },
+      {
+        "term": "information please",
+        "weight": 0.6383050467446383
+      },
+      {
+        "term": "covers document",
+        "weight": 0.6359439945992162
+      },
+      {
+        "term": "mentions training",
+        "weight": 0.6211480247397028
+      },
+      {
+        "term": "access example",
+        "weight": 0.6165720564315559
+      },
+      {
+        "term": "12 check",
+        "weight": 0.5956208564092738
+      },
+      {
+        "term": "information there",
+        "weight": 0.5949021588989231
+      },
+      {
+        "term": "desk please",
+        "weight": 0.580051624396435
+      },
+      {
+        "term": "unexpected please",
+        "weight": 0.566384987215781
+      },
+      {
+        "term": "this digital",
+        "weight": 0.5354305962951819
+      }
+    ],
+    "negative_class": "legitimate",
+    "negative_terms": [
+      {
+        "term": "invalid this",
+        "weight": -0.84132053607386
+      },
+      {
+        "term": "summary note",
+        "weight": -0.768705198190858
+      },
+      {
+        "term": "unexpected there",
+        "weight": -0.7154523574938927
+      },
+      {
+        "term": "concerns support",
+        "weight": -0.6934339217699561
+      },
+      {
+        "term": "details please",
+        "weight": -0.6907754792668017
+      },
+      {
+        "term": "latest document",
+        "weight": -0.6725949565704041
+      },
+      {
+        "term": "access details",
+        "weight": -0.6725949565704041
+      },
+      {
+        "term": "update please",
+        "weight": -0.6568966440168347
+      },
+      {
+        "term": "desk there",
+        "weight": -0.6367416266803553
+      },
+      {
+        "term": "covers digital",
+        "weight": -0.6324698287698858
+      },
+      {
+        "term": "information request",
+        "weight": -0.6263396751540014
+      },
+      {
+        "term": "workspace there",
+        "weight": -0.6127002091892834
+      },
+      {
+        "term": "update note",
+        "weight": -0.6050609464686696
+      },
+      {
+        "term": "entry for",
+        "weight": -0.5953401178413643
+      },
+      {
+        "term": "new entry",
+        "weight": -0.5953401178413643
+      },
+      {
+        "term": "entry",
+        "weight": -0.5953401178413643
+      },
+      {
+        "term": "for support",
+        "weight": -0.5948618321393604
+      },
+      {
+        "term": "ticket is",
+        "weight": -0.5948618321393604
+      },
+      {
+        "term": "notice message",
+        "weight": -0.5916286087424232
+      },
+      {
+        "term": "information new",
+        "weight": -0.5793268513037724
+      }
+    ]
+  }
+}

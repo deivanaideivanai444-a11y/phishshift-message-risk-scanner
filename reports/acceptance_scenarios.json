@@ -1,0 +1,44 @@
+{
+  "AT-01": {
+    "message": "Payroll password reset notice: your account reset is complete. Use the employer portal you normally visit; this urgent message has no link.",
+    "prediction": {
+      "category": "Uncertain \u2014 Manual Review Required",
+      "predicted_label": "phishing",
+      "score_type": "Logistic Regression estimated class probability",
+      "confidence": 0.5077211858121217,
+      "risk_cues": [
+        "credential request",
+        "urgent or threatening language",
+        "account action request"
+      ],
+      "explanation": "The model score is below the configured threshold or the trained models disagree. Review the message using trusted, independent channels.",
+      "manual_review_recommended": true,
+      "models_disagree": true,
+      "threshold": 0.65
+    },
+    "measured_urgent_false_positive_rates": {
+      "Rule-based baseline": 0.4047619047619047,
+      "TF-IDF + Logistic Regression": 0.6666666666666666,
+      "TF-IDF + Linear SVM": 0.6904761904761905
+    }
+  },
+  "AT-02": {
+    "associated_holdout_campaign": "synthetic-campaign-02",
+    "all_holdout_campaigns_are_excluded_from_training": true,
+    "new_harmless_message": "A courier bulletin says the delivery window closes shortly. Confirm the route at hxxps://route[.]example[.]invalid to keep the request active; fictional exercise.",
+    "prediction": {
+      "category": "Uncertain \u2014 Manual Review Required",
+      "predicted_label": "phishing",
+      "score_type": "Logistic Regression estimated class probability",
+      "confidence": 0.5430885536565313,
+      "risk_cues": [
+        "link-like text",
+        "account action request"
+      ],
+      "explanation": "The model score is below the configured threshold or the trained models disagree. Review the message using trusted, independent channels.",
+      "manual_review_recommended": true,
+      "models_disagree": false,
+      "threshold": 0.65
+    }
+  }
+}

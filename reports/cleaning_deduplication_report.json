@@ -1,0 +1,87 @@
+{
+  "input_rows": 480,
+  "missing_cells_filled": 240,
+  "invalid_label_rows_removed": 0,
+  "rows_after_validation": 480,
+  "exact_duplicates_removed": 0,
+  "near_duplicates_removed": 0,
+  "cross_label_exact_duplicates_preserved": 80,
+  "cross_label_near_duplicates_preserved": 1,
+  "rows_after_deduplication": 480,
+  "similarity_threshold": 0.92,
+  "comparison_basis": "NFKC-normalized, case-folded channel, subject and body",
+  "train_holdout_exact_matches_removed": 0,
+  "train_holdout_near_matches_removed": 0,
+  "train_holdout_similarity_threshold": 0.92,
+  "feature_and_label_audit": {
+    "rows_by_label": {
+      "phishing": 240,
+      "legitimate": 240
+    },
+    "rows_by_channel_and_label": {
+      "email": {
+        "legitimate": 120,
+        "phishing": 120
+      },
+      "sms": {
+        "legitimate": 120,
+        "phishing": 120
+      }
+    },
+    "link_text_rate_by_label": {
+      "legitimate": 0.5,
+      "phishing": 0.5
+    },
+    "sender_domain_type_rate_by_label": {
+      "legitimate": {
+        "known service (simulated)": 0.6666666666666666,
+        "unfamiliar synthetic domain": 0.3333333333333333
+      },
+      "phishing": {
+        "unfamiliar synthetic domain": 0.6666666666666666,
+        "known service (simulated)": 0.3333333333333333
+      }
+    },
+    "features_used": [
+      "channel",
+      "subject_or_title",
+      "body_text"
+    ],
+    "excluded_metadata": [
+      "message_id",
+      "sanitized_url_features",
+      "sender_domain_type",
+      "label",
+      "campaign_group",
+      "collected_date"
+    ],
+    "interpretation": "The target and campaign metadata are never passed to vectorizers. Feature rates are recorded to expose synthetic text/metadata shortcuts."
+  },
+  "top_weighted_text_features": "reports/model_feature_audit.json",
+  "train_rows": 360,
+  "holdout_rows": 120,
+  "train_campaigns": [
+    "synthetic-campaign-01",
+    "synthetic-campaign-03",
+    "synthetic-campaign-05",
+    "synthetic-campaign-06",
+    "synthetic-campaign-07",
+    "synthetic-campaign-09",
+    "synthetic-campaign-10",
+    "synthetic-campaign-11",
+    "synthetic-campaign-12",
+    "synthetic-campaign-13",
+    "synthetic-campaign-14",
+    "synthetic-campaign-15",
+    "synthetic-campaign-16",
+    "synthetic-campaign-18",
+    "synthetic-campaign-20"
+  ],
+  "holdout_campaigns": [
+    "synthetic-campaign-02",
+    "synthetic-campaign-04",
+    "synthetic-campaign-08",
+    "synthetic-campaign-17",
+    "synthetic-campaign-19"
+  ]
+}
